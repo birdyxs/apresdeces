@@ -1,0 +1,376 @@
+body {
+                margin: 0;
+                padding: 0;
+                word-wrap: break-word;
+                color: black;
+                background-color: black;
+                background-image: url(-);
+                background-repeat: repeat;
+  margin-top:25px;
+            }
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #111;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #transparent; 
+  border-radius: 20px;
+  border: 3px solid blak;
+}
+
+*, body, img { cursor:url(https://secure.static.tumblr.com/vmteopo/Eggo12azo/small_white_cursor.png), auto;}
+
+::-moz-selection { color: #010101; background:#8f8d8e;}
+::selection { color: #010101; background:#8f8d8e;}
+
+@font-face {font-family: "magic";
+    	src: url("//db.onlinewebfonts.com/t/7b1b7ad5f4dac15e57ad4c8d1b411b52.eot");
+    	src: url("//db.onlinewebfonts.com/t/7b1b7ad5f4dac15e57ad4c8d1b411b52.eot?#iefix") format("embedded-opentype"),
+    	url("//db.onlinewebfonts.com/t/7b1b7ad5f4dac15e57ad4c8d1b411b52.woff2") format("woff2"),
+    	url("//db.onlinewebfonts.com/t/7b1b7ad5f4dac15e57ad4c8d1b411b52.woff") format("woff"),
+    	url("//db.onlinewebfonts.com/t/7b1b7ad5f4dac15e57ad4c8d1b411b52.ttf") format("truetype"),
+    	url("//db.onlinewebfonts.com/t/7b1b7ad5f4dac15e57ad4c8d1b411b52.svg#Memoriam") format("svg");
+	}
+ @font-face{font-family:classy; src:url(https://files.jcink.net/uploads2/tealparties/Ophelie.ttf);}
+
+.rs-isaya {
+  background-color: #1c1b1c;
+  outline: 1px solid #636363;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  line-height: 100%;
+  font-family: poppins;
+  
+}
+.rsbd {
+  background: #202020;
+  border: 1px solid #111;
+  padding: 20px;
+}
+.rs-head {
+  height: 140px;
+  border: 1px solid #111;
+  overflow:hidden;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  position:relative;
+}
+.rs-head div {
+  background-position:center;
+  background-size:cover;
+  position:absolute;
+  left:0; top:0; right: 0; bottom: 0;
+  background-image: url('https://i.ibb.co/44rQh9Y/bggifstars.gif');
+  background-size:repeat;
+  
+}
+.rs-head span {
+  position:relative;
+  font-family: Playfair Display;
+  color: #DDD; text-transform: uppercase;
+  text-align:center;
+  letter-spacing: 4px;
+  font-size: 10px;
+}
+.rs-head span b {
+  display:block;
+  font-family: Classy; color: #807d7d; 
+  text-transform: lowercase;
+  font-size: 40px;
+  line-height: 100px;
+  letter-spacing: 0;
+  margin-top: -10px;
+}
+.rsbd.prez {
+  display:flex;
+  height: 400px;
+  margin-top: 20px;
+}
+.prez-left {
+  flex: 1;
+  position:relative;
+  outline: 1px solid #111;
+  overflow:hidden;
+  display:flex;
+  flex-direction:column;
+  background-image: url('https://i.postimg.cc/QMLbk0Gz/e79a8d4aca2dd82aa59cfba37fbbd242.jpg');
+  background-size:cover;
+}
+.prez-right {
+  width: 250px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  outline: 1px solid #111;
+  background: #111;
+}
+.prez-right img {
+  height: 110px;
+  width: 110px;
+  border-radius: 100%;
+  background: #111;
+  border: 10px solid #545252;
+  animation: pulser 2s infinite;
+  margin: 40px 10px 10px;
+  padding: 3px;
+}
+@keyframes pulser{0%{box-shadow: 0 0 0 0 rgba(59,56,56, 0.8);}70%{box-shadow: 0 0 0 15px rgba(79,77,77, 0);}100%{box-shadow: 0 0 0 0 rgba(246,246,246, 0);}} 
+.prez-right div {
+  color: #eee;
+  border: 35px solid #111;
+  border-right: 35px solid #111;
+  overflow:auto;
+  flex:1;
+  text-align:justify;
+  padding-right: 5px;
+  font-family: playfair display;
+  font-size: 11px;
+}
+.prez-right div b, .prez-right div strong {
+  color: #948f8f;
+  text-transform: lowercase;
+}
+.prez-right div::-webkit-scrollbar {width: 4px;} .prez-right div::-webkit-scrollbar-thumb {background: #545252;border-radius: 4px; -webkit-box-shadow: none !important;} .prez-right div::-webkit-scrollbar-track {background: rgba(0,0,0,0);-webkit-box-shadow: none !important;}
+.rsbd.sepa div {
+  background: #545252;
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  padding: 15px;
+  border: 1px solid #111;
+}
+.rsbd.sepa, .rsbd.title {
+  margin-top: 20px;
+  color: #eee;
+}
+.rsbd.sepa span {
+  background: #111;
+  padding: 3px 5px;
+  font-size: 10px;
+  letter-spacing: 2px;
+  flex-grow:1;
+  text-transform: uppercase;
+  margin: 5px;
+  text-align:center;
+  border: 1px solid #000;
+  font-family: karla;
+}
+.rsbd.title {
+  display:flex;
+  align-items:center;
+  overflow:hidden;
+  height: 100px;
+  position:relative;
+  text-align:center;
+  font-family: classy;
+  font-size: 30px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(-);
+  justify-content:center;
+}
+.rsearch {
+  background: #111;
+  padding: 20px;
+  color: #eee;
+  max-height: 400px;
+  overflow:auto;
+  border: 20px solid #111;
+  border-right: 15px solid #111;
+  text-align:justify;
+}
+.rslk {
+  display:flex;
+  border-bottom: 1px dotted #545252;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.rslk:last-child {
+  border:none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.rslk span {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  border: 2px solid #111;
+  border-right: 2px solid #545252;
+  border-left: 2px solid #545252;
+  padding: 5px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size: 30px;
+  color: #545252;
+}
+.rslk div {
+  flex:1;
+  margin-left: 20px;
+  font-size: 11px;
+}
+.rslk div b {
+  display:block;
+  font-family: Magic;
+  font-weight: bold;
+  color: #545252;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.rs-tabs {
+  position:relative; 
+  margin-top:25px;
+}
+.tabs-top {
+  display:flex; 
+  align-items:center; 
+  justify-content:center; 
+  text-align:center;
+  height:100px;
+  border: 1px solid #111;
+  outline: 1px solid #111;
+  outline-offset: 5px;
+  margin: 5px;
+}
+.tab-bg {
+  position:relative;
+  flex:1;
+  height: 100px;
+}
+.tab-bg div {
+  background-image: url('-');
+  position:absolute;
+  top:0;right:0;left:0;bottom:0;
+  filter:grayscale(1);
+  background-size:120%;
+  background-position:bottom right;
+  z-index:1; 
+}
+.tab-bg:before {
+  position:absolute;
+  background: #545252;
+  top:0;right:0;left:0;bottom:0;
+  z-index:2;
+  content:"";
+  opacity: .5;
+}
+#tabcontent {
+  height: 100%; 
+  overflow: auto; 
+  display:none; 
+  flex:1; 
+  background: #202020;
+  border: 1px solid #111;
+  margin-top: 25px; 
+  overflow:auto;
+  color: #eee;
+  font-family: Karla;
+  font-size: 12px;
+}
+.rs-isaya input {display: none;}
+.tab {
+  display:flex;
+  background: #545252;
+  padding-right: 20px;
+  align-items:center;
+  height: 100px;
+}
+label {
+  display: flex; 
+  background-color: inherit; 
+  color: #eee; 
+  border: none;
+  outline: none;
+  text-align: center;
+  cursor: pointer; 
+  transition: 0.3s; 
+  font-size: 35px;  
+  font-family: Poppins; 
+  text-transform: lowercase; 
+  font-weight: 700; 
+  margin-left: 20px;
+}
+label:hover {
+  color: #111; 
+  transition: 0.3s; 
+}
+#encours:checked ~ .tabs-right [for='encours'],
+#termines:checked ~ .tabs-right [for='termines'],
+#abandons:checked ~ .tabs-right [for='abandons']
+{background-color: transparent;color: #EAB595;}
+#encours:checked ~ .encours,
+#termines:checked ~ .termines,
+#abandons:checked ~ .abandons {
+  display:block;
+  transition-delay: .4s; 
+}
+.list-rp {
+  height: 250px;
+  overflow:auto;
+  margin:20px;
+}
+.list-rp::-webkit-scrollbar {width: 5px;} .list-rp::-webkit-scrollbar-thumb {background: #888;border-radius: 4px; -webkit-box-shadow: none !important;} .list-rp::-webkit-scrollbar-track {background: rgba(0,0,0,0);-webkit-box-shadow: none !important;}
+.rp {
+  display:flex;
+  margin:10px 10px 10px 0px;
+  margin-bottom: 20px;
+}
+.rp span {
+  color: #888;
+  font-size: 45px;
+  margin-right: 20px;
+  margin-top: -5px;
+}
+.rp div {
+  line-height: 9px;
+}
+.rp a {
+  font-size: 16px;
+  text-decoration:none !important;
+  display:flex;
+  align-items:center;
+  color: #888;
+  font-family: playfair display;
+  line-height: 20px;
+  text-transform: lowercase;
+}
+.rp:after {
+  content:"";
+  background: #888;
+  height: 1px;
+  flex:1;
+  margin-left:20px;
+  margin-top: 10px;
+}
+.rs-footer {
+  position:relative;
+  height: 100px;
+  margin-top: 20px;
+  border: 1px solid #111;
+}
+.rs-footer div {
+  background-image: url('-');
+  background-position:center;
+  backgroun-size:cover;
+  position:absolute;
+  top:0;right:0;left:0;bottom:0;
+  filter: grayscale(1) contrast(2);
+  opacity: .8;
+}
+.rs-footer:before {
+  position:absolute;
+  background: #545252;
+  top:0;right:0;left:0;bottom:0;
+  z-index:2;
+  content:"";
+  opacity: .5;
+}
